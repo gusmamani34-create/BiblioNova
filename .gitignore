@@ -1,0 +1,85 @@
+
+# ==========================================
+# VARIABLES DE ENTORNO Y CREDENCIALES
+# ==========================================
+
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+
+# ==========================================
+# NODE.JS / REACT / VITE
+# ==========================================
+
+node_modules/
+dist/
+.vite/
+coverage/
+
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+
+# ==========================================
+# PYTHON / FASTAPI
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+ENV/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+
+*.egg-info/
+.eggs/
+build/
+htmlcov/
+.coverage
+.coverage.*
+
+
+# ==========================================
+# REGISTROS Y ARCHIVOS TEMPORALES
+# ==========================================
+
+*.log
+*.tmp
+*.temp
+
+
+# ==========================================
+# EDITORES Y ENTORNOS DE DESARROLLO
+# ==========================================
+
+.idea/
+.vscode/
+
+
+# ==========================================
+# SISTEMA OPERATIVO
+# ==========================================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+
+# ==========================================
+# BASES DE DATOS LOCALES
+# ==========================================
+
+*.sqlite
+*.sqlite3
+*.db
