@@ -1,6 +1,6 @@
 //responsable de realizar las peticiones http
 //crear servicio de comunicacion
-const API_URL="http://127.0.0.1:8000"
+const API_URL="https://biblionova-5pzj.onrender.com"
 
 //async/await permite esperar la respuesta sin bloquear el hilo principal
 export async function obtenerCategorias(){

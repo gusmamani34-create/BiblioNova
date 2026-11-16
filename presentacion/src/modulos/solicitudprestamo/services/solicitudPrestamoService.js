@@ -1,4 +1,4 @@
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://biblionova-5pzj.onrender.com";
 
 export async function obtenerSolicitudesPrestamo() {
 
